@@ -16,7 +16,16 @@ USER_AGENT = [
 ]
 
 TDT_KEY = [
-    ''
+    '98390210b003e812656026ef694bbbee',
+    'e7baa690c03a5ed235a671ec2cce4123',
+    '6f2d1fdbd539ee0c34a7adbe0cf31174',
+    'ead285c52abf82507e0472e092a5cded',
+    'bfd6908081d54d7ae6ebde9a003aab0b',
+    '53375a007eafae52264f34444de11922',
+    'a3bac08f4e22fb64a082d9cc69808bc2',
+    '7666c190624c3192a9ff430e570dda26',
+    'fa100ee8c3113e17317a119198ec3166',
+    '83570f7bc2f2a642f30362542eec6882'
 ]
 
 
@@ -152,8 +161,8 @@ if __name__ == '__main__':
                    '&TILECOL={x}&TILEROW={y}&TILEMATRIX={z}&tk={key}')
 
     main(extent=[105.317233, 32.203410, 110.158904, 28.164785],
-         zoom=16,
+         zoom=6,
          url=tdt_img_url,
-         root_path='E:\\tdt_img')
+         root_path='E:\\test')
     end_time = time.time()
     print('总耗时： {:.2f}秒'.format(end_time - start_time))
