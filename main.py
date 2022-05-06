@@ -16,16 +16,8 @@ USER_AGENT = [
 ]
 
 TDT_KEY = [
-    '98390210b003e812656026ef694bbbee1',
-    'e7baa690c03a5ed235a671ec2cce41232',
-    '6f2d1fdbd539ee0c34a7adbe0cf311743',
-    'ead285c52abf82507e0472e092a5cded4',
-    'bfd6908081d54d7ae6ebde9a003aab0b4',
-    '53375a007eafae52264f34444de119225',
-    'a3bac08f4e22fb64a082d9cc69808bc26',
-    '7666c190624c3192a9ff430e570dda267',
-    'fa100ee8c3113e17317a119198ec31668',
-    '83570f7bc2f2a642f30362542eec68829'
+    '{key 1}',
+    '{key 2}'
 ]
 
 
